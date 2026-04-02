@@ -1,0 +1,12 @@
+mass = float(input("Cuanto Pesas?:"))
+height = float(input("Cuanto Mides?:"))
+bmi = mass/(height*height)
+
+if bmi < 15:
+ print("Estas desnutrido:",bmi)
+
+if 15 <= bmi < 30:
+ print("Estas bien:",bmi)
+
+if 30 <= bmi:
+  print("Sos un gordo:",bmi)
